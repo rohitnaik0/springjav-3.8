@@ -22,7 +22,7 @@ public class LOChallenge {
         System.out.println(value1);
         System.out.println(value2);
 
-        double result = (value1 + value2) * 100;
+        double result = value1 + value2 * 100;
         System.out.println(result);
 
         double remainder = result % 40;
@@ -31,7 +31,7 @@ public class LOChallenge {
         boolean isBool = remainder == 0 ? true : false;
         System.out.println(isBool);
 
-        if (isBool) {
+        if (!isBool) {
             System.out.println("Remainder");
         }
 
