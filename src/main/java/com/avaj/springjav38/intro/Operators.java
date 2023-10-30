@@ -9,6 +9,8 @@ public class Operators {
         char secondChar = 'B';
         System.out.println(firstchar + secondChar);
         System.out.println(" " + firstchar + secondChar);
+        System.out.println(firstchar + secondChar + " ");
+        System.out.println(firstchar + " " + secondChar );
 
         float floatvalue = 50/17f;
         float remainderVal = 50%17f;
@@ -17,12 +19,12 @@ public class Operators {
 
         int result = 20;
         result++;
-//        result+=19;
+        result+=19;
         System.out.println(result);
 
         int tluser = 10;
 //        tluser-=5;
-//        tluser = (int)(tluser -5.5);
+        tluser = (int)(tluser -5.5);
         System.out.println(tluser);
     }
 }

@@ -11,5 +11,8 @@ public class Primitive {
         System.out.println("min value is : " + Integer.MIN_VALUE);
         System.out.println(Integer.MAX_VALUE+1);
         System.out.println(Integer.toString(10,16));
+        //System.out.println(Long.toString(34526,16));
+        //System.out.println(Short.toString());
+        System.out.println(primeValue + " toString check with Integer at the beginning");
     }
 }

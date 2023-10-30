@@ -7,7 +7,7 @@ public class StringVal {
         System.out.println(" example of unicode in string --> \u0024");
 
         int intType = 101;
-        String stringType = "333";
+        String stringType = " 333";
         System.out.println(intType + stringType);
 
     }

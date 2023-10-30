@@ -7,6 +7,6 @@ public class FloatDouble {
         float floatVal = (float) 9.99;
 
         System.out.println(Float.MAX_EXPONENT);
-
+        System.out.println(Double.POSITIVE_INFINITY);
     }
 }

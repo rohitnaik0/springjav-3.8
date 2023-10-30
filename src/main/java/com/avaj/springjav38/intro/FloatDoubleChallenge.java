@@ -18,7 +18,7 @@ public class FloatDoubleChallenge {
         System.out.println(floatVal);
         System.out.println(doubleVal);
 
-        double pounds = 200d;
+        double pounds = 200;
         double kilograms = .45359237;
         double conversion;
 
