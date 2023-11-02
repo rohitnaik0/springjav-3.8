@@ -4,11 +4,11 @@ public class MethodChallenge {
     public static void main(String[] args) {
 
         int result = calculateHighSchoolPosition(42);
-        displayHighScorepostion("terabyte", result);
+        displayHighScorePostion("terabyte", result);
 
     }
 
-    public static void displayHighScorepostion(String name, int listPos) {
+    public static void displayHighScorePostion(String name, int listPos) {
         System.out.println(name + " managed to get into position " + listPos + " on the high score list");
     }
 

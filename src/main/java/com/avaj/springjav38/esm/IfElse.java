@@ -28,21 +28,26 @@ public class IfElse {
 //            System.out.println("Your final score was " + finalScore);
 //        }
 
+        int calScore = Methods.calculateScore(true,1,2,3);
+        System.out.println(calScore);
+
         beshterr();
 
         Methods obj1 = new Methods();
         obj1.calculateScore(true,1,2,3);
+        System.out.println(" " + obj1);
 
-
-//        Methods obj = new Methods();
-//        obj.calculateScore();
     }
     public static void beshterr(){
         Methods obj = new Methods();
         obj.calculateScore(true,1,2,3);
 
     }
-//    Methods obj = new Methods();
-//    obj.calculateScore();
+
+    //declarations dont work outside methods
+//    Methods obj12 = new Methods();
+//    obj12.calculateScore();
+//    int calScore1 = Methods.calculateScore(true,1,2,3);
+//    System.out.println(calScore1);
 
 }

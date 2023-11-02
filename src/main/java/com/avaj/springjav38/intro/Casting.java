@@ -8,5 +8,11 @@ public class Casting {
         short shortVal2 = (short)(shortVal/2);
         System.out.println(shortVal2);
 
+        byte newByteVal = (128/2);
+        System.out.println(newByteVal);
+
+        int intValue = Integer.MIN_VALUE;
+        int testIntVal = (intValue/2);
+
     }
 }
